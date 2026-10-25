@@ -1,0 +1,36 @@
+# This is a .gitignore file for a Unity project
+
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]serSettings/
+
+# MemoryCaptures can get very large, exclude them
+/[Mm]emoryCaptures/
+
+# Asset meta data should be tracked, but sometimes people ignore them (keep them tracked for Unity)
+!/[Aa]ssets/**/*.meta
+
+# Visual Studio / MonoDevelop / Rider specific
+.vs/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
